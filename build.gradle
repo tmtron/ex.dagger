@@ -15,7 +15,7 @@ repositories {
 final DAGGER_VER = '2.16'
 dependencies {
     implementation "com.google.dagger:dagger:${DAGGER_VER}"
-    apt "com.google.dagger:dagger-compiler:${DAGGER_VER}"
+    annotationProcessor "com.google.dagger:dagger-compiler:${DAGGER_VER}"
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

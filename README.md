@@ -21,13 +21,14 @@ plugins {
 }
 ```
 ### dagger dependency
-With the apt-idea plugin in place, we can add the dagger-compiler to the apt configuration:
+With the apt-idea plugin in place, we can use the `annotationProcessor`
+configuration (we could also use the `apt` configuration which is added by the apt-idea plugin):
 
 ```gradle
 final DAGGER_VER = '2.16'
 dependencies {
     implementation "com.google.dagger:dagger:${DAGGER_VER}"
-    apt "com.google.dagger:dagger-compiler:${DAGGER_VER}"
+    annotationProcessor "com.google.dagger:dagger-compiler:${DAGGER_VER}"
 }
 ```
 
