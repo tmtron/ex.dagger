@@ -1,7 +1,7 @@
 # ex.dagger
 
 A simple example project that uses
-- [IntelliJ](https://www.jetbrains.com/idea/) IDE Version 2018.4
+- [IntelliJ](https://www.jetbrains.com/idea/) IDE Version 2018.1.4
 - [Gradle](https://gradle.org) version 4 
   - [Gradle apt-idea plugin](https://github.com/tbroyer/gradle-apt-plugin#intellij-idea)
 - [Dagger2 ](https://google.github.io/dagger/)
