@@ -15,6 +15,8 @@ import com.tmtron.exdagger.c.ModuleC_BindFactory;
 1 error
 ```
 
+To fix the issue, activate the dagger-compiler for all modules.
+
 # ex.dagger
 
 A simple example project that uses

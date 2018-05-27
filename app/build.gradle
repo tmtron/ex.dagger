@@ -4,7 +4,5 @@ plugins {
 }
 
 dependencies {
-    annotationProcessor "com.google.dagger:dagger-compiler:${DAGGER_VER}"
-
     implementation project(':lib')
 }

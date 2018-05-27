@@ -14,6 +14,7 @@ subprojects {
 
         dependencies {
             implementation "com.google.dagger:dagger:${DAGGER_VER}"
+            annotationProcessor "com.google.dagger:dagger-compiler:${DAGGER_VER}"
 
             testCompile group: 'junit', name: 'junit', version: '4.12'
         }
