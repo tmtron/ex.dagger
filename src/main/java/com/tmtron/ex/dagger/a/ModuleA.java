@@ -2,14 +2,19 @@ package com.tmtron.ex.dagger.a;
 
 import com.tmtron.ex.dagger.ItemBase;
 
-import dagger.Binds;
+import javax.inject.Singleton;
+
 import dagger.Module;
+import dagger.Provides;
 import dagger.multibindings.IntoSet;
 
 @Module
-public abstract class ModuleA {
+public class ModuleA {
 
-    @Binds
+    @Provides
+    @Singleton
     @IntoSet
-    abstract ItemBase bind(ItemA item);
+    ItemBase bind() {
+        return new ItemA();
+    }
 }
