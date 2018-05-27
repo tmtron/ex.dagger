@@ -32,3 +32,8 @@ dependencies {
 ```
 
 
+## Related SO links
+- [How do I configure IntelliJ/gradle to use dagger 2.0
+](https://stackoverflow.com/a/50551416/6287240)
+- [Annotation Processor in IntelliJ and Gradle
+](https://stackoverflow.com/questions/42441844/annotation-processor-in-intellij-and-gradle)
