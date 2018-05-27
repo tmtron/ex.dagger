@@ -1,4 +1,4 @@
-package com.tmtron.ex.dagger.a;
+package com.tmtron.ex.dagger.b;
 
 import com.tmtron.ex.dagger.ItemBase;
 
@@ -7,9 +7,10 @@ import dagger.Module;
 import dagger.multibindings.IntoSet;
 
 @Module
-public abstract class ModuleA {
+public abstract class ModuleB {
 
     @Binds
     @IntoSet
-    abstract ItemBase bind(ItemA item);
+    abstract ItemBase bind(ItemB item);
+
 }
