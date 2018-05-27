@@ -7,7 +7,9 @@ A simple example project that uses
 - [Dagger2 ](https://google.github.io/dagger/)
 
 Branches:
-- [MultiBindings](../../tree/MultiBindings)
+- [MultiBindings](../../tree/MultiBindings): shows how to use the [Multibindings feature](https://google.github.io/dagger/multibindings)
+- [MultiBinding_MultiModule](https://github.com/tmtron/ex.dagger/tree/MultiBinding_MultiModule): shows a build error that can occur when using the [Multibindings feature](https://google.github.io/dagger/multibindings) in a [Multi Module Project](https://guides.gradle.org/creating-multi-project-builds/)
+- [MultiBinding_MultiModuleOk](https://github.com/tmtron/ex.dagger/tree/MultiBinding_MultiModuleOk): shows how to fix the issue in [MultiBinding_MultiModule](https://github.com/tmtron/ex.dagger/tree/MultiBinding_MultiModule)
 
 ## Gradle setup
 
