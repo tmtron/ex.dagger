@@ -1,3 +1,20 @@
+# MultiBinding_MultiModule
+
+This branch shows a compile error, that will occur when a java submodule only includes the forgets to include the
+dagger dependency, but forgets to apply the dagger-compiler annotation processor.  
+The error will occur in the main java app module: 
+```
+> Task :lib:jar UP-TO-DATE
+
+> Task :app:compileJava FAILED
+exdagger\app\build\generated\source\apt\main\com\tmtron\exdagger\DaggerMainComponent.java:7: error: cannot find symbol
+import com.tmtron.exdagger.c.ModuleC_BindFactory;
+                            ^
+  symbol:   class ModuleC_BindFactory
+  location: package com.tmtron.exdagger.c
+1 error
+```
+
 # ex.dagger
 
 A simple example project that uses

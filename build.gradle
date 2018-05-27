@@ -1,5 +1,5 @@
-subprojects {
 
+subprojects {
     group 'com.tmtron.ex.dagger'
     version '1.0-SNAPSHOT'
 
@@ -8,12 +8,12 @@ subprojects {
     }
 
     project.plugins.withType(JavaPlugin) {
+        ext.DAGGER_VER = '2.16'
+
         sourceCompatibility = 1.8
 
-        final DAGGER_VER = '2.16'
         dependencies {
             implementation "com.google.dagger:dagger:${DAGGER_VER}"
-            annotationProcessor "com.google.dagger:dagger-compiler:${DAGGER_VER}"
 
             testCompile group: 'junit', name: 'junit', version: '4.12'
         }
