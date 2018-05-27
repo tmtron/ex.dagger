@@ -6,6 +6,9 @@ A simple example project that uses
   - [Gradle apt-idea plugin](https://github.com/tbroyer/gradle-apt-plugin#intellij-idea)
 - [Dagger2 ](https://google.github.io/dagger/)
 
+Branches:
+- [MultiBindings](../../tree/MultiBindings)
+
 ## Gradle setup
 
 ### apt-idea plugin
