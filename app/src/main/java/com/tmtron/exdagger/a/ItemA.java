@@ -1,6 +1,6 @@
-package com.tmtron.ex.dagger.a;
+package com.tmtron.exdagger.a;
 
-import com.tmtron.ex.dagger.ItemBase;
+import com.tmtron.exdagger.ItemBase;
 
 class ItemA extends ItemBase {
 

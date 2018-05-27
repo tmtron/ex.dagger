@@ -1,4 +1,4 @@
-package com.tmtron.ex.dagger;
+package com.tmtron.exdagger;
 
 import java.util.Set;
 

@@ -1,6 +1,6 @@
-package com.tmtron.ex.dagger.b;
+package com.tmtron.exdagger.b;
 
-import com.tmtron.ex.dagger.ItemBase;
+import com.tmtron.exdagger.ItemBase;
 
 import javax.inject.Inject;
 

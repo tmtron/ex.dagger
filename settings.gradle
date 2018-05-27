@@ -1,2 +1,4 @@
 rootProject.name = 'exdagger'
+include 'lib'
+include 'app'
 

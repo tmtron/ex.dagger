@@ -1,7 +1,7 @@
-package com.tmtron.ex.dagger;
+package com.tmtron.exdagger;
 
-import com.tmtron.ex.dagger.a.ModuleA;
-import com.tmtron.ex.dagger.b.ModuleB;
+import com.tmtron.exdagger.a.ModuleA;
+import com.tmtron.exdagger.b.ModuleB;
 
 import javax.inject.Singleton;
 

@@ -1,21 +1,21 @@
-plugins {
-    id 'java'
-    id 'net.ltgt.apt-idea' version "0.15"
-}
+subprojects {
 
-group 'com.tmtron.ex.dagger'
-version '1.0-SNAPSHOT'
+    group 'com.tmtron.ex.dagger'
+    version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+    repositories {
+        mavenCentral()
+    }
 
-repositories {
-    mavenCentral()
-}
+    project.plugins.withType(JavaPlugin) {
+        sourceCompatibility = 1.8
 
-final DAGGER_VER = '2.16'
-dependencies {
-    implementation "com.google.dagger:dagger:${DAGGER_VER}"
-    annotationProcessor "com.google.dagger:dagger-compiler:${DAGGER_VER}"
+        final DAGGER_VER = '2.16'
+        dependencies {
+            implementation "com.google.dagger:dagger:${DAGGER_VER}"
+            annotationProcessor "com.google.dagger:dagger-compiler:${DAGGER_VER}"
 
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+            testCompile group: 'junit', name: 'junit', version: '4.12'
+        }
+    }
 }
