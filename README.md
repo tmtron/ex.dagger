@@ -1,6 +1,6 @@
 # MultiBinding_MultiModule
 
-This branch shows a compile error, that will occur when a java submodule only includes the forgets to include the
+This branch shows a compile error, that will occur when a java submodule only includes the 
 dagger dependency, but forgets to apply the dagger-compiler annotation processor.  
 The error will occur in the main java app module: 
 ```
